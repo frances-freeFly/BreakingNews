@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 网站主页 -->
+  <url>
+    <loc>https://breakingnews-gdwp.onrender.com/</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 主页的另一种访问形式（index.html） -->
+  <url>
+    <loc>https://breakingnews-gdwp.onrender.com/index.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 隐私政策页面 -->
+  <url>
+    <loc>https://breakingnews-gdwp.onrender.com/privacy-policy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 使用条款页面 -->
+  <url>
+    <loc>https://breakingnews-gdwp.onrender.com/terms-of-use.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- app-ads.txt 是广告验证文件，一般无需收录，这里仅作为参考（可选） -->
+  <url>
+    <loc>https://breakingnews-gdwp.onrender.com/app-ads.txt</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+</urlset>
