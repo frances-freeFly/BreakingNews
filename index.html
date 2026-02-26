@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Developer - 构建智能未来</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('https://p6-flow-imagex-sign.byteimg.com/ocean-cloud-tos/36a2c368e5e54b029b3e0b8e0b3e3b8e~tplv-a9rns2rl98-image.png?rk3s=18ea6f23&x-expires=1744254101&x-signature=7ZJ2j3G%2FZJ2j3G%2FZJ2j3G%2FZJ2j3G%2FZJ2j3G%2FZJ2j3G%2F') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background-color: #3DDC84;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(61, 220, 132, 0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #34C775;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(61, 220, 132, 0.4);
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-card h3 {
+            color: #3DDC84;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .skill-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero p {
+                font-size: 1.5rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Android Developer</h1>
+            <p>Building a Smart Future</p>
+            <a href="#about" class="cta-button">了解更多</a>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <h2 class="section-title">关于我</h2>
+        <div style="text-align: center; max-width: 800px; margin: 0 auto; line-height: 1.8; font-size: 1.1rem;">
+            <p>我是一名专注于Android平台的开发者，致力于用代码构建更智能、更便捷的移动应用体验。从界面设计到性能优化，从原生开发到跨平台解决方案，我始终追求卓越的用户体验和高效的技术实现。</p>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: white;">
+        <h2 class="section-title">核心技能</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>原生开发</h3>
+                <p>精通Kotlin与Java，熟练使用Android Studio进行应用开发，深入理解Android组件、生命周期及性能优化。</p>
+            </div>
+            <div class="skill-card">
+                <h3>架构设计</h3>
+                <p>熟悉MVVM、MVI等主流架构模式，使用Jetpack组件库构建可维护、可扩展的高质量应用。</p>
+            </div>
+            <div class="skill-card">
+                <h3>跨平台能力</h3>
+                <p>具备Flutter、React Native等跨平台开发经验，能够高效实现多端一致的应用体验。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Android Developer | 用代码连接世界，构建智能未来</p>
+    </footer>
+</body>
+</html>
